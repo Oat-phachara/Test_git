@@ -15,7 +15,7 @@ git reset --mixed develop             (ย้อนจาก commit หรือ
 git clean -n              #check Untracked
 git clean -df             #delete Untracked
 
-git init
+git init          (เหมือเลือกเอาโฟลเดอร์เพื่อเตรียมพร้อม)
 
 git add <filename>
 git add .
@@ -23,10 +23,10 @@ git add .
 git commit -m "message"
 git commit -am "message"       (auto add modify)
 
-git branch
-git branch --all
-git branch develop
-git branch --delete develop
+git branch                          (เช็คชื่อ branch เฉพาะ local)
+git branch --all                     (เช็คทั้งหมด)
+git branch <ชื่อbranch>
+git branch --delete <ชื่อ branch>
 
 git checkeout <branch name , commit id>
 git checkeout -b test
@@ -35,5 +35,10 @@ git checkeout <branch name><filename>
 git merge --no-ff  <ตามด้วยชื่อ branch>        (เอาแค่ v.ล่าสุด)
 git merge <ตามด้วยชื่อ branch>
 
-git diff 
-git diff 
+git diff    (เพื่อเช็ความแตกต่างระหว่า branch)
+
+---------------------------------------------------------------------------------
+* Git Hosting
+
+git remote add (URL เพื่อติดต่อกับ github ให้รู้จักกัน)
+
