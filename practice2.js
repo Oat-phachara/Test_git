@@ -89,13 +89,13 @@
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-let x = ["fanta", "cola", "water"]
-let result = x.filter((Good) => {
-    return Good !== "cola" && "Fanta"
+// let x = ["fanta", "cola", "water"]
+// let result = x.filter((Good) => {
+//     return Good !== "cola" && "Fanta"
 
-})
+// })
 
-console.log(result);
-// check(["fanta", "cola", "water"])
-// check(["fanta", "cola"])
-// check(["lemonade", "beer", "water"])
+// console.log(result);
+// // check(["fanta", "cola", "water"])
+// // check(["fanta", "cola"])
+// // check(["lemonade", "beer", "water"])

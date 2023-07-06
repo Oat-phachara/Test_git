@@ -27,3 +27,6 @@ let test = number(num)
 if (test === true) {
     console.log(num + " : is a prime number");
 } else console.log(num + " : is not a prime number");
+
+
+
