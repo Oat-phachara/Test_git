@@ -40,5 +40,16 @@ git diff    (เพื่อเช็ความแตกต่างระห�
 ---------------------------------------------------------------------------------
 * Git Hosting
 
-git remote add (URL เพื่อติดต่อกับ github ให้รู้จักกัน)
+git remote add origin (URL เพื่อติดต่อกับ github ให้รู้จักกัน)
+git remote -v         (เช็คว่าเชื่อมรีโมทกับตัวไหนอยู่บ้าง)
+git push -u origin master
+git push -u --delete master
 
+git fetxh --all
+git fetxh origin master
+git merch
+git merch origin/master
+git pull <remote>/<branch>
+git pull origin/master
+
+git clone <URL>
