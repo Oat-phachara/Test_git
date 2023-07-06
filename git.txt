@@ -8,9 +8,9 @@ git log --before="date"
 git log --author=user                         #by user
 git log --grep="message"                      #by message
 
-git reset --hard <เลขไอดี>
-git reset --soft <เลขไอดี>
-git reset --mixed develop
+git reset --hard <เลขไอดี>             (ลบไปเลย)
+git reset --soft <เลขไอดี>             (ย้อนจาก commitไปadd)
+git reset --mixed develop             (ย้อนจาก commit หรือ add ไปอยู่แบบตอนยังไม่add)
 
 git clean -n              #check Untracked
 git clean -df             #delete Untracked
@@ -32,5 +32,8 @@ git checkeout <branch name , commit id>
 git checkeout -b test
 git checkeout <branch name><filename>
 
-git merge
-git merge
+git merge --no-ff  <ตามด้วยชื่อ branch>        (เอาแค่ v.ล่าสุด)
+git merge <ตามด้วยชื่อ branch>
+
+git diff 
+git diff 
