@@ -1,0 +1,33 @@
+cd .. && cd <ชื่อโฟลเดอร์>/<ชื่อไฟล์>
+
+git status
+git log --oneline
+git log --stat
+git log --after="date"
+git log --before="date"
+git log --author=user                         #by user
+git log --grep="message"                      #by message
+
+git reset --hard <เลขไอดี>
+git reset --soft <เลขไอดี>
+git reset --mixed develop
+
+git clean -n              #check Untracked
+git clean -df             #delete Untracked
+
+git init
+
+git add <filename>
+git add .
+
+git commit -m "message"
+git commit -am "message"       (auto add modify)
+
+git branch
+git branch --all
+git branch develop
+git branch --delete develop
+
+git checkeout <branch name , commit id>
+git checkeout -b test
+git checkeout <branch name><filename>
