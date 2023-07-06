@@ -36,4 +36,3 @@ git merge --no-ff  <ตามด้วยชื่อ branch>        (เอา�
 git merge <ตามด้วยชื่อ branch>
 
 git diff 
-git diff 
