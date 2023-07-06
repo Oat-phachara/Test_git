@@ -31,3 +31,6 @@ git branch --delete develop
 git checkeout <branch name , commit id>
 git checkeout -b test
 git checkeout <branch name><filename>
+
+git merge
+git merge
