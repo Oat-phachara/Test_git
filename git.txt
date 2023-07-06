@@ -1,7 +1,10 @@
 cd .. && cd <ชื่อโฟลเดอร์>/<ชื่อไฟล์>
 
+git help ...
+
 git status
 git log --oneline
+git log --graph
 git log --stat
 git log --after="date"
 git log --before="date"
@@ -11,6 +14,9 @@ git log --grep="message"                      #by message
 git reset --hard <เลขไอดี>             (ลบไปเลย)
 git reset --soft <เลขไอดี>             (ย้อนจาก commitไปadd)
 git reset --mixed develop             (ย้อนจาก commit หรือ add ไปอยู่แบบตอนยังไม่add)
+git reset <ชื่อไฟล์>
+
+git revert  
 
 git clean -n              #check Untracked
 git clean -df             #delete Untracked
@@ -18,6 +24,7 @@ git clean -df             #delete Untracked
 git init          (เหมือเลือกเอาโฟลเดอร์เพื่อเตรียมพร้อม)
 
 git add <filename>
+git add *.html
 git add .
 
 git commit -m "message"
@@ -35,7 +42,7 @@ git checkeout <branch name><filename>
 git merge --no-ff  <ตามด้วยชื่อ branch>        (เอาแค่ v.ล่าสุด)
 git merge <ตามด้วยชื่อ branch>
 
-git diff    (เพื่อเช็ความแตกต่างระหว่า branch)
+git diff    (เพื่อเช็ความแตกต่างระหว่า branch หรือ version)
 
 ---------------------------------------------------------------------------------
 * Git Hosting
